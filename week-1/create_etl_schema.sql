@@ -1,0 +1,7 @@
+
+CREATE SCHEMA IF NOT EXISTS etl
+    AUTHORIZATION postgres;
+
+GRANT ALL ON SCHEMA etl TO etl;
+
+GRANT ALL ON SCHEMA etl TO postgres;
